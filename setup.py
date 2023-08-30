@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 __version__ = "0.0.0"
 
 REPO_NAME = "IPYNBrenderer"
-AUTHOR_USER_NAME = "Sai Subhasish"
+AUTHOR_USER_NAME = "SaiSubhasish"
 SRC_REPO = "IPYNBrenderer"
 AUTHOR_EMAIL = "saisubhasishrout777@gmail.com"
 
