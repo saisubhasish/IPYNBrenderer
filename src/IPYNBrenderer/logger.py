@@ -13,6 +13,6 @@ logging.basicConfig(
     handlers=[
         logging.FileHandler(sys.stdout),
         logging.StreamHandler(sys.stdout),
-    ]
-    )
+    ],
+)
 logger = logging.getLogger("IPYNBrenderer")

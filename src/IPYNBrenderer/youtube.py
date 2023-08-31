@@ -1,8 +1,11 @@
-from IPython import display    # to be used in jupyter notebook
-from ensure import ensure_annotations     # To ensure the passed input follows strict datatype 
+from IPython import display  # to be used in jupyter notebook
+from ensure import (
+    ensure_annotations,
+)  # To ensure the passed input follows strict datatype
 from IPYNBrenderer.custom_exception import InvalidURLException
 from IPYNBrenderer.logger import logger
 from py_youtube import Data
+
 
 @ensure_annotations
 def get_time_info(URL: str) -> int:
